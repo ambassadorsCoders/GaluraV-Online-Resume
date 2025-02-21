@@ -1,0 +1,98 @@
+/** background settings */
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+
+/** H1 Settings **/
+
+h1 {
+
+    font-family: "Nanum Myeongjo", serif;
+
+}
+
+/** Paragraph Settings */
+    p {
+        text-align: justify;
+        font-family: "Nanum Myeongjo", serif;
+        font-size: 17px;
+    text-align: justify;
+    width: 720px;
+    margin: auto;;
+    }
+/** Divider Settings */
+    hr.rounded {
+  border-top: 10px solid darkolivegreen;
+  border-radius: 5px;
+    }
+/** Table Settings */
+    table {
+        border: 4px solid darkolivegreen
+    }
+    
+    th {
+        text-align: center;
+        border: 2px solid darkgoldenrod
+    }
+    
+    td {
+        border: 2px solid darkgoldenrod;
+        text-align: justify;
+    }
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /**SECTION 1 SETTINGS **/
+  .container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+    .image {
+
+        max-width: 200%;
+        max-height: 500%;
+      
+        border: 13px solid #ffffff;
+        border-radius: 4px;
+        box-shadow: 2px 1px 10px 5px
+         rgba(0, 0, 0, 0.2), 1px 1px 1px 1px 
+         rgba(0, 0, 0, 0.19);
+        
+      }
+    
+ /**TOP NAVIGATION BAR SETTINGS**/
+.topnav {
+    overflow: hidden;
+    background-color: #6b898f;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Nanum Myeongjo", serif;
+   
+  }
+  
+  .topnav a:hover {
+    background-color: #f5d521;
+    color: black;
+    width: 60px;
+    height: auto;
+  }
+  
+  .topnav a.active {
+    background-color: #f5d521;
+    color: black;
+
+  }
