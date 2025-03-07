@@ -81,27 +81,27 @@ p {
 }
 
 .button1 {
-  background-color: #333; 
+  background-color: #6b898f; 
   color: white; 
   font-family: "Nanum Myeongjo", serif
 
 }
 
 .button1:hover {
-  background-color: #ddd;
+  background-color: #f5d521;
   color: black;
   font-family: "Nanum Myeongjo", serif
 }
 
 .button2 {
-  background-color: #333; 
+  background-color: #6b898f; 
   color: white; 
   font-family: "Nanum Myeongjo", serif
 
 }
 
 .button2:hover {
-  background-color: #ddd;
+  background-color: #f5d521;
   color: black;
   font-family: "Nanum Myeongjo", serif
 }
@@ -145,4 +145,8 @@ h2 {
   body {
 
     font-family: "Nanum Myeongjo" serif;
+  }
+
+  footer {
+    display: block;
   }
