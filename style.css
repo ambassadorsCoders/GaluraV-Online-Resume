@@ -109,15 +109,16 @@ width: 335px;
       }
 
       /**RESPONSIVE SETTINGS **/
+      
 @media (max-width: 768px) {
   header {
-      font-size: 18px;
+      font-size: 18px; 
   }
 
   .section1, .profile {
       width: 100%; 
       float: none; 
-      padding-left: 0;
+      padding-left: 0; 
   }
 
   .section2 {
@@ -128,85 +129,27 @@ width: 335px;
   img {
       float: none; 
       display: block; 
-      margin: 0 auto;
+      margin: 0 auto; 
   }
 
   .info {
-      font-size: 10px;
+      font-size: 10px; 
       padding-left: 0; 
-      float: none;
+      float: none; 
   }
 
   table {
-      width: 100%;
+      width: 100%; 
   }
 
   th, td {
-      font-size: 14px;
+      font-size: 14px; 
   }
 }
 
 @media (max-width: 480px) {
-  @media (max-width: 768px) {
-      header {
-          font-size: 18px; 
-      }
-  
-      .section1, .profile {
-          width: 100%; 
-          float: none; 
-          padding-left: 0; 
-      }
-  
-      .section2 {
-          margin-left: 0; 
-          padding-left: 0; 
-      }
-  
-      img {
-          float: none; 
-          display: block; 
-          margin: 0 auto; 
-      }
-  
-      .info {
-          font-size: 10px; 
-          padding-left: 0; 
-          float: none; 
-      }
-  
-      table {
-          width: 100%; 
-      }
-  
-      th, td {
-          font-size: 14px; 
-      }
-  }
-  
-  @media (max-width: 480px) {
-      h1 {
-          font-size: 24px; 
-      }
-  
-      h2 {
-          font-size: 20px; 
-      }
-  
-      header {
-          font-size: 16px; 
-      }
-  
-      .section1, .profile {
-          font-size: 15px; 
-      }
-  
-      .info {
-          font-size: 9px; 
-      }
-  }}
   h1 {
-      font-size: 24px;
+      font-size: 24px; 
   }
 
   h2 {
@@ -219,8 +162,9 @@ width: 335px;
 
   .section1, .profile {
       font-size: 15px; 
+  }
 
   .info {
-      font-size: 9px;
+      font-size: 9px; 
   }
 }
