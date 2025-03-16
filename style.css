@@ -111,7 +111,7 @@ width: 335px;
       /**RESPONSIVE SETTINGS **/
 
       .responsive-table {
-        display: block; 
+        display: b;; 
         overflow-x: auto; 
         white-space: nowrap; 
     }
@@ -145,15 +145,27 @@ width: 335px;
   }
 
   table {
-      width: 100%; 
+      width: 100%;
+      border-collapse: collapse; 
+      margin-bottom: 20px;  
+      margin: 0; 
+    padding: 0; 
   }
 
   th, td {
-      font-size: 14px; 
+      font-size: 14px;
+      padding: 10px; 
   }
+
+  th, td {
+    font-size: 14px; 
+    padding: 8px; 
+}
 }
 
-@media (max-width: 480px) {
+
+@media (max-width: 480px) 
+{
   h1 {
       font-size: 24px; 
   }
@@ -173,4 +185,26 @@ width: 335px;
   .info {
       font-size: 9px; 
   }
+
+  th, td {
+    font-size: 12px; 
+    padding: 6px; 
+}
+
+}
+
+/* Prevent Gaps */
+body {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px; 
+  box-sizing: border-box; 
+}
+
+.responsive-table {
+  margin: 0;
 }
